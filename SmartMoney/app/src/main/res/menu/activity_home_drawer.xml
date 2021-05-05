@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_news_report"
+            android:title="Report" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setingsn"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/ic_money"
+            android:title="Expense Chart" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_catManagement"
+            android:icon="@drawable/ic_folder_management"
+            android:title="Category Management" />
+        <item
+            android:id="@+id/nav_Export"
+            android:icon="@drawable/ic_export"
+            android:title="Export" />
+        <item
+            android:id="@+id/nav_Import"
+            android:icon="@drawable/ic_restore"
+            android:title="Import" />
+    </group>
+</menu>

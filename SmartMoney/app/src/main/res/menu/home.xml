@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/action_settings"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/action_settings"-->
+<!--        android:icon="@drawable/settings"-->
+<!--        app:showAsAction="always"-->
+<!--        android:iconTint="@color/white"/>-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_report"-->
+<!--        android:icon="@drawable/ic_news_report"-->
+<!--        android:title="Report"-->
+<!--        app:showAsAction="always"-->
+<!--        android:iconTint="@color/white"/>-->
+
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_notification"
+        android:title="Notification"
+        app:showAsAction="always"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_graph"-->
+<!--        android:icon="@drawable/grph"-->
+<!--        android:title="Expense Chart"-->
+<!--        app:showAsAction="never"/>-->
+<!--    <item-->
+<!--        android:id="@+id/nav_notification"-->
+<!--        android:icon="@drawable/ic_notification"-->
+<!--        android:title="Notification" />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_catManagement"-->
+<!--        android:icon="@drawable/ic_folder_management"-->
+<!--        android:title="Category Management" />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_Export"-->
+<!--        android:icon="@drawable/ic_export"-->
+<!--        android:title="Export" />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_Import"-->
+<!--        android:icon="@drawable/ic_restore"-->
+<!--        android:title="Import" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/rate"-->
+<!--        android:title="Rate"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/share"-->
+<!--        android:title="Share "/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/praecy"-->
+<!--        android:title="Pravecy Policy"/>-->
+
+
+<!--    <item android:id="@+id/moreapps"-->
+<!--        android:title="More Apps"></item>-->
+<!--    <item-->
+<!--        android:id="@+id/incompie"-->
+<!--        android:title="Income chart"/>-->
+
+
+</menu>

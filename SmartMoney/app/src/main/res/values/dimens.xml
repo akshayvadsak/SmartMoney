@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="default_padding_top">8dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+
+    <dimen name="horizontal_divider_height">1dp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+
+    <dimen name="pattern_lock_dot_selected_size">24dp</dimen>
+    <dimen name="pattern_lock_dot_size">10dp</dimen>
+    <dimen name="pattern_lock_path_width">3dp</dimen>
+    <dimen name="pl_pattern_dot_line_width">3dp</dimen>
+    <dimen name="pl_pattern_dot_size">12dp</dimen>
+    <dimen name="pl_pattern_dot_size_activated">28dp</dimen>
+    <dimen name="pref_seekbar_fix_negative">-12dp</dimen>
+    <dimen name="pref_seekbar_fix_positive">12dp</dimen>
+    <dimen name="preference_icon_minWidth">0dp</dimen>
+    <dimen name="preference_seekbar_padding_end">22dp</dimen>
+    <dimen name="preference_seekbar_padding_start">0dp</dimen>
+    <dimen name="preference_seekbar_value_width">36dp</dimen>
+    <dimen name="screen_edge_horizontal_margin">16dp</dimen>
+    <dimen name="screen_edge_vertical_margin">16dp</dimen>
+</resources>

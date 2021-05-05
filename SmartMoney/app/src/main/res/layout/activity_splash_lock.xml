@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5sp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_app"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/toolbar_notification"
+            android:layout_marginTop="40sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/app_name"
+            android:textSize="18dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/profile_namehh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center|bottom"
+            android:maxLines="1"
+            android:text="Set Your Pattern Lock"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/ic_app_logo_round"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Smart Moneyman"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.andrognito.patternlockview.PatternLockView
+            android:id="@+id/patter_lock_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="4sp"
+            android:paddingTop="10dp"
+            app:aspectRatio="square"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="50dp"
+            app:dotAnimationDuration="150"
+            app:dotCount="3"
+            app:dotNormalSize="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSetPattern"
+        android:layout_width="150dp"
+        android:layout_height="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btb_us"
+        android:text="Set Pattern"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvSplashLock_forgotPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="Forgot Pattern"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:background="@drawable/btb_us"
+        android:visibility="visible" />
+</RelativeLayout>

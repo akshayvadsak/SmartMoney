@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#93c572</color>
+    <color name="colorPrimaryDark">#93c572</color>
+    <color name="colorAccent">#93c572</color>
+
+    <color name="Goldenrod">#D6B45D</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="crim">#FFFFFF</color>
+
+    <color name="contentBodyColor">#93c572</color>
+    <color name="bottomNavigationTextColor">#B2B2B2</color>
+    <color name="bottomNavigationTintColor">#B2B2B2</color>
+    <color name="bottom_navigation_color">#706F6F</color>
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+</resources>

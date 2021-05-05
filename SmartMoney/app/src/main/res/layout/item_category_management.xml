@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvItemCM_nameCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="0.5"
+            android:hint="Category Name"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imgItemCM_removeCategory"
+            android:layout_width="20sp"
+            android:layout_height="22sp"
+            android:layout_gravity="center"
+            android:layout_marginRight="7sp"
+            android:src="@drawable/ic_rubbish_bin" />
+    </LinearLayout>
+</RelativeLayout>
